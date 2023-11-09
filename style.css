@@ -1,0 +1,131 @@
+body {
+    background-color: #011627;
+    font-family: "firacode";
+}
+
+.cadre {
+    background-color: #011627;
+    border-radius: 8px;
+    border: 1px solid #1E2D3D;
+    margin: 69px;
+}
+.cadre2 {
+    background-color:#011221;
+    border-radius: 8px;
+    border: 1px solid #1E2D3D;
+    margin: 69px;
+}
+
+th {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pp-154 {
+    padding-right: 154px !important;
+    font-family: "firacode";
+}
+
+.pp-180 {
+    padding-right: 180px !important;
+    padding-left: 141px;
+
+}
+
+.text {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'firacode';
+    src: url('./FiraCode-Light.ttf');
+}
+
+.border-color {
+    border-bottom: 3px solid #FEA55F !important;
+
+}
+
+.marginn1 {
+    margin-top: 322.2px;
+    margin-left: 311.35px;
+
+
+}
+
+.marginn0 {
+    margin-top: 322.2px;
+
+
+
+}
+
+.marginn2 {
+    margin-left: 311px;
+
+
+}
+
+.marginn3 {
+    margin-left: 311px;
+    margin-top: 111.75px;
+}
+
+.cadre-img {
+
+
+    border-radius: 8px;
+    border: 1px solid #0C1616;
+    background: linear-gradient(150deg, rgba(23, 85, 83, 0.70) 1.7%, rgba(67, 217, 173, 0.09) 81.82%);
+    box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.30) inset;
+    backdrop-filter: blur(32px);
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+
+}
+
+.shadow {
+    width: 454px;
+    height: 492px;
+    transform: rotate(-94.305deg);
+    flex-shrink: 0;
+    fill: #43D9AD;
+    opacity: 0.4;
+    filter: blur(87px);
+
+
+}
+
+.mm {
+    margin-top: 27px;
+
+}
+
+.marginneb {
+
+    margin-bottom: 200px;
+}
+
+.mxx {
+    margin-left: 183px;
+}
+
+.pp {
+    padding-right: 47px;
+}
+
+.padb {
+    padding-bottom: 500px;
+
+}
+.ppt{
+
+padding-right: 309px;
+
+}
+.card-body{
+background-color: #011221;
+border-color: #011221 ;
+}

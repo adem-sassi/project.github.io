@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <style>
+        @keyframes fadeOut {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mon Site Web</h1>
+    <p>Clique sur "Adem Sassi" pour découvrir un œuf de Pâques !</p>
+
+    <table>
+        <tr>
+            <th class="text-secondary p-2 pp-154 ps-3" id="ademSassi">Adem Sassi</th>
+        </tr>
+    </table>
+
+    <script>
+        function afficherOeufDePaques() {
+            // Fait disparaître lentement le texte
+            document.getElementById("ademSassi").style.animation = "fadeOut 2s forwards";
+
+            // Ajoute une classe pour le mystère
+            document.getElementById("ademSassi").classList.add("mysteriousEgg");
+
+            // Ajoute d'autres actions mystérieuses ici si tu le souhaites
+        }
+
+        // Ajoute un événement de clic à l'élément avec l'id "ademSassi"
+        document.getElementById("ademSassi").addEventListener("click", afficherOeufDePaques);
+    </script>
+
+</body>
+</html>
